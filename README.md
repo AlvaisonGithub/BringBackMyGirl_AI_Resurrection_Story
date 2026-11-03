@@ -17,6 +17,7 @@ Rather than offering a definitive answer, *Echoes of Her* invites players to ref
 - **An AI resurrection dilemma:** Players consider whether to create an AI representation of the deceased daughter, including questions of consent and the impact on surviving family members.
 - **Multiple possible story outcomes:** Decisions shape the experience and its closing reflections.
 - **Ethical reflection:** The game draws on the ethics of care and deontological ethics, including empathy, responsibility, autonomy, truth, and consent.
+- **Easter egg:** The game has ONE easter egg, which is the storyline that now even the creator cannot achieve anymore.
 
 ## Ethical Questions
 
