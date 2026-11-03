@@ -1,0 +1,38 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 5, in script
+    init python:
+  File "game/script.rpy", line 5, in script
+    init python:
+  File "game/script.rpy", line 6, in <module>
+    renpy.change_language("english")
+TypeError: argument of type 'NoneType' is not iterable
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "D:\RenPy\renpy-8.3.7-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "D:\RenPy\renpy-8.3.7-sdk\renpy\main.py", line 541, in main
+    renpy.game.context().run(node)
+  File "game/script.rpy", line 5, in script
+    init python:
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "game/script.rpy", line 5, in script
+    init python:
+  File "D:\RenPy\renpy-8.3.7-sdk\renpy\ast.py", line 834, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\RenPy\renpy-8.3.7-sdk\renpy\python.py", line 1187, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 6, in <module>
+    renpy.change_language("english")
+  File "D:\RenPy\renpy-8.3.7-sdk\renpy\translation\__init__.py", line 784, in change_language
+    renpy.style.restore(style_backup) # @UndefinedVariable
+  File "style.pyx", line 841, in renpy.style.restore
+TypeError: argument of type 'NoneType' is not iterable
+
+Windows-10-10.0.26100 AMD64
+Ren'Py 8.3.7.25031702
+BringBackMyGirl 1.0
+Wed Apr 16 23:47:20 2025

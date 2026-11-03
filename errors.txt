@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 1325: Line is indented, but the preceding spacing statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    text "San Francisco Chronicle. (2021). He couldn’t get over his fiancée’s death. So he brought her back as an A.I. chatbot." color "#CCCCCC"
+    ^
+
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Thu Apr 17 00:37:20 2025
